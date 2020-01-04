@@ -1,0 +1,21 @@
+---
+title: RedBlock Homepage
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/hack.css">
+		<link rel="stylesheet" href="/styles/solarized-dark.css">
+		<link rel="stylesheet" href="/styles/dark-grey.css">
+		<link rel="stylesheet" href="/styles/prism.css">
+    <title>{{ title }}</title>
+  </head>
+  <body class="hack dark-grey">
+    <div class="main container">
+      {{ content | safe }}
+    </div>
+    <script src="/scripts/prism.js" async=""></script>
+  </body>
+</html>

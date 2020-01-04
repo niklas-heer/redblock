@@ -1,0 +1,23 @@
+{
+  "name": "redblock",
+  "version": "1.0.0",
+  "description": "source of",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/niklas-heer/redblock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niklas-heer/redblock/issues"
+  },
+  "homepage": "https://github.com/niklas-heer/redblock#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
